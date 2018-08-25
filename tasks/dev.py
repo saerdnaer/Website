@@ -191,7 +191,7 @@ class MakeVolunteerShifts(Command):
     def run(self):
         # First = first start time. Final = end of last shift
         shift_list = {
-            "AV": {
+            "Stage: Audio/Visual": {
                 "Stage A": [
                     {"first": "2018-08-31 12:00:00", "final": "2018-08-31 20:00:00", "min": 1, "max": 1},
                     {"first": "2018-09-01 10:00:00", "final": "2018-09-01 20:00:00", "min": 1, "max": 1},
@@ -225,7 +225,7 @@ class MakeVolunteerShifts(Command):
                     {"first": "2018-09-02 10:00:00", "final": "2018-09-02 20:00:00", "min": 1, "max": 1},
                 ],
             },
-            "VOC Mixer": {
+            "Stage: Vision Mixer": {
                 "Stage A": [
                     {"first": "2018-08-31 12:00:00", "final": "2018-08-31 20:00:00", "min": 1, "max": 1},
                     {"first": "2018-09-01 10:00:00", "final": "2018-09-01 20:00:00", "min": 1, "max": 1},
@@ -242,7 +242,7 @@ class MakeVolunteerShifts(Command):
                     {"first": "2018-09-02 10:00:00", "final": "2018-09-02 20:00:00", "min": 1, "max": 1},
                 ]
             },
-            "VOC Camera": {
+            "Stage: Camera Operator": {
                 "Stage A": [
                     {"first": "2018-08-31 12:00:00", "final": "2018-08-31 20:00:00", "min": 1, "max": 1},
                     {"first": "2018-09-01 10:00:00", "final": "2018-09-01 20:00:00", "min": 1, "max": 1},
@@ -292,13 +292,6 @@ class MakeVolunteerShifts(Command):
                     {"first": "2018-08-31 10:00:00", "final": "2018-08-31 20:00:00", "min": 1, "max": 1},
                     {"first": "2018-09-01 10:00:00", "final": "2018-09-01 20:00:00", "min": 1, "max": 1},
                     {"first": "2018-09-02 10:00:00", "final": "2018-09-02 20:00:00", "min": 1, "max": 1},
-                ]
-            },
-            "Logistics": {
-                "Logistics": [
-                    {"first": "2018-08-31 10:00:00", "final": "2018-08-31 16:00:00", "min": 1, "max": 1},
-                    {"first": "2018-09-01 10:00:00", "final": "2018-09-01 16:00:00", "min": 1, "max": 1},
-                    {"first": "2018-09-02 10:00:00", "final": "2018-09-02 16:00:00", "min": 1, "max": 1},
                 ]
             },
             "Tent Steward": {
